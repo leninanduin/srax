@@ -1,0 +1,220 @@
+.bg-red {
+  background: #ff0006;
+  color: #fbfbfa;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+.bg-red-hover {
+  background: #87080b;
+  text-decoration: none;
+}
+.border-left-red {
+  border-left: #ff0006 5px solid;
+  padding-left: 4px;
+}
+.inner-left-right-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+a {
+  transition: all 0.3s ease;
+}
+body {
+  color: #525050;
+  font-family: 'Open Sans', serif;
+}
+#header {
+  padding: 20px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+#header a {
+  color: #525050;
+  margin: 2px 10px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+#header a:hover,
+#header a.active {
+  border-bottom: 1px solid;
+  color: #ff0006;
+  text-decoration: none;
+}
+#main-banner {
+  background-image: url("../assets/banner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fbfbfa;
+  height: 60vh;
+  padding: 100px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+#main-banner h1,
+#main-banner h2,
+#main-banner h3 {
+  display: block;
+  height: fit-content;
+  text-transform: uppercase;
+}
+#main-banner h1 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+#main-banner a {
+  background: #ff0006;
+  color: #fbfbfa;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+#main-banner a:hover {
+  background: #87080b;
+  text-decoration: none;
+}
+#courses-info {
+  padding: 50px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+#courses-info h4 {
+  color: black;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-left: #ff0006 5px solid;
+  padding-left: 4px;
+}
+#courses-info .course {
+  border: none;
+  font-size: 0.85em;
+  padding: 0;
+}
+#courses-info .course .img-mask {
+  max-height: 180px;
+  overflow: hidden;
+}
+#courses-info .course .card-body {
+  border-radius: 4px;
+  webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+#courses-info .course h5 {
+  color: black;
+  margin-bottom: 15px;
+}
+#courses-info .course p {
+  margin-bottom: 15px;
+}
+#courses-info .course a {
+  background: #ff0006;
+  color: #fbfbfa;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+#courses-info .course a:hover {
+  background: #87080b;
+  text-decoration: none;
+}
+#courses-info .course span {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+footer {
+  background-color: #1f232f;
+  color: #fbfbfa;
+  font-size: 0.85em;
+  font-weight: 100;
+}
+footer .links {
+  padding: 50px 0;
+  width: 100%;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+footer strong {
+  text-transform: uppercase;
+  display: block;
+}
+footer a,
+footer p {
+  color: #525050;
+  display: block;
+}
+footer .copy {
+  background-color: #1b1e27;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+}
+.form-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  animation: all 1s ease;
+}
+#get-started-form {
+  animation: all 1s ease;
+  background: #fbfbfa;
+  left: 50%;
+  margin: auto;
+  padding: 30px;
+  position: fixed;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  z-index: 25;
+}
+#get-started-form .close {
+  position: relative;
+  top: -20px;
+  right: -15px;
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  body {
+    font-size: 2.7em;
+  }
+  nav {
+    font-size: 0.6em;
+  }
+  #main-banner {
+    height: 45vh;
+    margin-top: 105px;
+  }
+  #header {
+    background: white;
+    border-bottom: 1px solid #525050;
+    height: 105px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  #courses-info h4 {
+    font-size: 1em;
+  }
+  #courses-info .course {
+    margin-top: 50px;
+  }
+  #courses-info .course h5 {
+    font-size: 1em;
+  }
+  footer {
+    font-size: 0.8em;
+  }
+  footer .copy {
+    font-size: 0.8em;
+  }
+}
